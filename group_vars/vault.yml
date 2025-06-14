@@ -1,5 +1,5 @@
 vault_mysql_root_password: "root"
 
-vault_emr_db_password: "supersecret1"
-vault_billing_db_password: "supersecret2"
-vault_intake_db_password: "supersecret3"
+vault_emr_db_password: "root"
+vault_billing_db_password: "root"
+vault_intake_db_password: "root"
