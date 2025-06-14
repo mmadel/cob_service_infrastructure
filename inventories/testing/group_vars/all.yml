@@ -1,0 +1,19 @@
+# MySQL root config
+mysql_root_user: root
+mysql_root_password: "{{ vault_mysql_root_password }}"
+mysql_port: 3306
+
+# EMR Service DB
+emr_db_name: emr_db
+emr_db_user: emr_user
+emr_db_password: "{{ vault_emr_db_password }}"
+
+# Billing Service DB
+billing_db_name: billing_db
+billing_db_user: billing_user
+billing_db_password: "{{ vault_billing_db_password }}"
+
+# Digital Intake Service DB
+intake_db_name: intake_db
+intake_db_user: intake_user
+intake_db_password: "{{ vault_intake_db_password }}"
